@@ -14,20 +14,25 @@
 <body>
 
 	<div class="container">  
-		<form>
+		<form class ="form">
 		<div class="baris1">
-			<input type='text' name='nilai'  id="number1" class="number" placeholder='Input nilai'/>
+			<input type='text' name='nilai' id="number1" class="input" placeholder='Input nilai'/>
 		</div>
-			<input type="reset" name="clear" value=" CLEAR "  class="clear" onclick="clear" />
-			<input type='text' name='hasil'  id="hasil" placeholder='Hasil Nilai'/>
+		<div class = "baris2">
+			<button type ="reset" class = "reset">CLEAR</button> 
+			<input type='text' name='hasil' id="hasil" class ="hasil" placeholder='Hasil Nilai'/>
+		</div>
+			
 		</form>
-
-		<button type="submit"  onclick='tambah()'>+</button>
-		<button type="submit"  onclick='kurang()'>-</button>
-		<button type="submit"  onclick='kali()'>x</button>
-		<button type="submit"  onclick='bagi()'>:</button>
-		<button type="submit"  onclick='hitung()'>=</button>
-		<script  src="js/javascript.js"></script>
+		<div class = "baris3">
+			<button class = "tambah" type="submit"  onclick='tambah()'>+</button>
+			<button class = "kurang" type="submit"  onclick='kurang()'>-</button>
+			<button class = "kali" type="submit"  onclick='kali()'>x</button>
+			<button class = "bagi" type="submit"  onclick='bagi()'>:</button>
+			<button class = "hitung" type="submit"  onclick='hitung()'>=</button>
+			<script  src="js/javascript.js"></script>
+		</div>
+		
 	</div>
 
 
