@@ -28,6 +28,7 @@
 	width: 20%;
 	border-radius: 5px;
 	padding : 10px;
+	border:solid 1px #333333;
 }
 
 .hasil { 
@@ -54,28 +55,37 @@
 
 	border-radius: 5px;
 	padding : 10px;
+	border:solid 1px #333333;
 }
 
 .kurang {
 
 	border-radius: 5px;
 	padding : 10px;
+	border:solid 1px #333333;
 }
 
 .kali {
 
 	border-radius: 5px;
 	padding : 10px;
+	border:solid 1px #333333;
 }
 
 .bagi {
 
 	border-radius: 5px;
 	padding : 10px;
+	border:solid 1px #333333;
 }
 
 .hitung {
 
 	border-radius: 5px;
-	padding : 10px;
+	border: double 3px #333333;
+}
+
+.baris3 button {
+
+	padding: 10px 25px;
 }
